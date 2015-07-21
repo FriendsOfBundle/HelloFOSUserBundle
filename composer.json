@@ -19,7 +19,7 @@
         "friendsofsymfony/user-bundle": "dev-master"
     },
     "autoload": {
-        "psr-4":{
+        "psr-4": {
             "FOB\\HelloUserBundle\\": ""
         }
     },
