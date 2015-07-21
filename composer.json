@@ -1,0 +1,31 @@
+{
+    "name": "friendsofbundle/user-bundle",
+    "description": "Hello Symfony2 FOSUserBundle",
+    "type": "symfony-bundle",
+    "keywords": ["User management"],
+    "homepage": "http://friendsofbundle.github.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Thien An",
+            "homepage": "https://hoangthienan.com"
+        },
+        {
+            "name": "FriendsOfBundle Community",
+            "homepage": "https://github.com/friendsofbundle/HelloFOSUserBundle/contributors"
+        }
+    ],
+    "require": {
+        "friendsofsymfony/user-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-4":{
+            "FOB\\HelloUserBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
+    }
+}
