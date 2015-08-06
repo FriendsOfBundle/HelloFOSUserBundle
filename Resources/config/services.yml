@@ -1,0 +1,4 @@
+services:
+#    fob_hello_user.example:
+#        class: FOB\HelloUserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
